@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pradeep | Premium Video Editor</title>
+    <meta name="description" content="Top-class 4K video editing portfolio showcasing cinematic visuals.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="cursor"></div>
+    <div id="cursor-blur"></div>
+
+    <nav>
+        <div class="logo">PRADEEP.S</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="home">
+        <div class="hero-content">
+            <h1 class="glitch" data-text="CINEMATIC">CINEMATIC</h1>
+            <h1 class="visuals">VISUALS.</h1>
+            <p>Elevating storytelling through top-class 4K video editing.</p>
+            <a href="#work" class="btn">Explore Work</a>
+
+        </div>
+    </header>
+
+    <section id="skills">
+        <h2 class="section-title">Editing Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card pr-card">
+                <div class="skill-icon">Pr</div>
+                <h3>Adobe Premiere Pro</h3>
+                <p>Advanced Editing</p>
+            </div>
+            <div class="skill-card ae-card">
+                <div class="skill-icon">Ae</div>
+                <h3>Adobe After Effects</h3>
+                <p>Motion Graphics</p>
+            </div>
+            <div class="skill-card dv-card">
+                <div class="skill-icon">🎨</div>
+                <h3>DaVinci Resolve</h3>
+                <p>Color Grading</p>
+            </div>
+            <div class="skill-card sd-card">
+                <div class="skill-icon">🎧</div>
+                <h3>Sound Design</h3>
+                <p>Audio Mixing</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="work">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="video-grid">
+            <!-- 1. Project Timeline -->
+            <div class="video-card">
+                <div class="video-wrapper">
+                    <video src="Timeline (4).mp4" muted loop preload="metadata" playsinline></video>
+                    <div class="play-btn">▶</div>
+                </div>
+                <div class="video-info">
+                    <h3>Project Timeline</h3>
+                    <p>Process Breakdown</p>
+                </div>
+            </div>
+
+            <!-- 2. Editing Workflow -->
+            <div class="video-card">
+                <div class="video-wrapper">
+                    <video src="workflow.mp4" muted loop preload="metadata" playsinline></video>
+                    <div class="play-btn">▶</div>
+                </div>
+                <div class="video-info">
+                    <h3>Editing Workflow</h3>
+                    <p>Behind the Scenes</p>
+                </div>
+            </div>
+
+            <!-- 3. Explore Intellects -->
+            <div class="video-card">
+                <div class="video-wrapper">
+                    <video src="Explore Intellects.mp4" muted loop preload="metadata" playsinline></video>
+                    <div class="play-btn">▶</div>
+                </div>
+                <div class="video-info">
+                    <h3>Explore Intellects</h3>
+                    <p>Creative Concept</p>
+                </div>
+            </div>
+
+            <!-- 4. Meiyazhagan 2.0 -->
+            <div class="video-card">
+                <div class="video-wrapper">
+                    <video src="Meiyazhagan 2.0.mp4" muted loop preload="metadata" playsinline></video>
+                    <div class="play-btn">▶</div>
+                </div>
+                <div class="video-info">
+                    <h3>Meiyazhagan 2.0</h3>
+                    <p>Cinematic Edit</p>
+                </div>
+            </div>
+
+            <!-- 5. Event Edits -->
+            <div class="video-card">
+                <div class="video-wrapper">
+                    <video src="Event edits.mp4" muted loop preload="metadata" playsinline></video>
+                    <div class="play-btn">▶</div>
+                </div>
+                <div class="video-info">
+                    <h3>Event Edits</h3>
+                    <p>Dynamic Coverage</p>
+                </div>
+            </div>
+
+            <!-- 6. Education -->
+            <div class="video-card">
+                <div class="video-wrapper">
+                    <video src="Education.mp4" muted loop preload="metadata" playsinline></video>
+                    <div class="play-btn">▶</div>
+                </div>
+                <div class="video-info">
+                    <h3>Education</h3>
+                    <p>Informative & Engaging</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for full screen video -->
+    <div id="video-modal" class="modal">
+        <span class="close-modal">&times;</span>
+        <video id="modal-video" controls playsinline></video>
+    </div>
+
+    <section id="contact">
+        <div class="contact-box">
+            <h2>Let's Create Something Epic.</h2>
+            <p>Ready to take your visuals to the next level? Get in touch.</p>
+
+            <div class="contact-info-block">
+                <p><strong>Email:</strong> <a
+                        href="mailto:Pradeepnirmala2003@gmail.com">Pradeepnirmala2003@gmail.com</a></p>
+                <p><strong>Phone:</strong> <a href="tel:+9183001892900">+91 83001892900</a></p>
+                <p><strong>Location:</strong> Tirupur</p>
+            </div>
+
+            <div class="contact-buttons">
+                <a href="mailto:Pradeepnirmala2003@gmail.com" class="btn primary-btn">Start a Project</a>
+                <a href="Pradeep_Resume.txt" download="Pradeep_Resume.txt" class="btn secondary-btn">Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Pradeep Video Editor. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
